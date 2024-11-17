@@ -1,0 +1,55 @@
+/* Global Theme Variables */
+:root {
+    --nav: #fff;
+    --body: #e6ebe6;
+    --red:#f95959;
+    --light-blue : #455d7a;
+    --dark-blue:#233142;
+    --lightest-green: #0080454d;
+    --white: rgba(255, 255, 255, 0.8);
+    --black: #000;
+    --primary-text: #1a2b19;
+    --secondary-text: #70776f;
+    --priamry-card-bg: #fff;
+    --body-bg: #fff;
+    --bg-card: #0080454d;
+    --coffee-bg: rgba(255, 255, 255, 0.8);
+    --para-color: var(--secondary-text);
+    --card-bg: rgba(255, 255, 255, 0.8);
+    --cross-btn: #604f4fcc;
+  }
+  
+  /* Styles */
+  .bg-card {
+    background: var(--card-bg);
+  }
+  .p-color {
+    color: var(--para-color);
+  }
+  .bg-coffee {
+    background: var(--coffee-bg);
+  }
+  .nav-bg {
+    background: var(--nav);
+  }
+  .white-text {
+    color: var(--white);
+    font-weight: 400 !important;
+  }
+  .text-secondary {
+    color: var(--secondary-text);
+  }
+  .text-primary {
+    color: var(--primary-text);
+  }
+  .text-red {
+    color: var(--red);
+  }
+  .body-bg {
+    background: var(--body-bg);
+  }
+  .background-modal {
+    background: var(--body);
+  }
+
+  
